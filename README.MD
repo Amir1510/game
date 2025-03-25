@@ -2,6 +2,6 @@
 
 Напишите в terminal
 
-bash```
+```bash
 python get.py
 ```

@@ -3,5 +3,5 @@
 Напишите в terminal
 
 ```bash
-python get.py
+python game.py
 ```

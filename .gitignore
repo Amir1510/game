@@ -1,6 +1,3 @@
 # git ignore venv
-<<<<<<< HEAD
 venv/
-=======
-venv/
->>>>>>> b24c4a7dbe311b593fa3d24229096334c214f063
+

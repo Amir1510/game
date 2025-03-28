@@ -2,6 +2,12 @@ from gameparts.tic_tac_tor_game import TicTacToeGame
 from gameparts.exceptions import FieldIndexError, CellOccupiedError
 
 
+def save_result(result):
+    file = open('result.txt', 'a', encoding='utf-8')
+    file.write(result + '\n')
+    file.close()
+
+
 def main():
     game = TicTacToeGame()
     game.get_board()
@@ -64,11 +70,13 @@ def main():
         game.get_board()
 
         if game.check_win(current_player):
-            print(f'Победили {current_player}.')
+            print(f'Победил {current_player}.')
+            save_result(f'Победил {current_player}')
             running = False
 
         elif game.game_over():
             print('Ничья!')
+            save_result('Ничья!')
             running = False
 
         current_player = 'O' if current_player == 'X' else 'X'

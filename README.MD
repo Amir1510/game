@@ -3,10 +3,21 @@
 Напишите в terminal
 
 ```bash
+python -m venv venv
+```
+
+```bash
+source venv/Scripts/activate
+```
+
+```bash
+python -m pip instal --upgrade pip
+```
+
+```bash
+pip instal -r requirements.txt
+```
+
+```bash
 python game.py
 ```
-<<<<<<< HEAD
-чтобы запустить игру
-=======
-чтобы запустить код
->>>>>>> 29d6ae960ad7ddb57eeb65850fa31321b8ec268e

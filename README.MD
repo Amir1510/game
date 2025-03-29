@@ -1,23 +1,24 @@
 # Игра крестики нолики
 
-Напишите в terminal
+Выполните все действия, чтобы запустить игру.
 
+1. Добавьте виртуальное окружение.
 ```bash
 python -m venv venv
 ```
-
+2. Активируйте виртуальное окружение.
 ```bash
 source venv/Scripts/activate
 ```
-
-```bash
-python -m pip instal --upgrade pip
-```
-
+3. Установите все библиотеки.
 ```bash
 pip instal -r requirements.txt
 ```
-
+4. Запустите игру.
 ```bash
 python game.py
+```
+5. После закрытие деактивирйте виртуальное окруэение.
+```bash
+deactivate
 ```

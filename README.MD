@@ -18,7 +18,7 @@ pip instal -r requirements.txt
 ```bash
 python game.py
 ```
-5. После закрытие деактивирйте виртуальное окружение.
+5. После закрытия деактивирйте виртуальное окружение.
 ```bash
 deactivate
 ```

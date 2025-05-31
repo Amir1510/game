@@ -7,18 +7,21 @@
 python -m venv venv
 ```
 2. Активируйте виртуальное окружение.
-```bash
+2.1```bash
 source venv/Scripts/activate
 ```
-3. Установите все библиотеки.
+2.2```bash
+python -m pip install --upgrade pip
+```
+3. Установите все модули.
 ```bash
-pip instal -r requirements.txt
+pip install -r requirements.txt
 ```
 4. Запустите игру.
 ```bash
 python game.py
 ```
-5. После закрытия деактивирйте виртуальное окружение.
+5. После закрытия игры деактивирйте виртуальное окружение.
 ```bash
 deactivate
 ```
